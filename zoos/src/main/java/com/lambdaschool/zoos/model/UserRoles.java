@@ -26,6 +26,10 @@ public class UserRoles extends Auditable implements Serializable {
     @JsonIgnoreProperties("userRoles")
     private Role role;
 
+    public UserRoles()
+    {
+    }
+
     // generated code
     public UserRoles(User user, Role role) {
         this.user = user;
